@@ -13,10 +13,8 @@ const Home = () => {
           <div className="jumbo-text-normal">
             The device that blasts through barriers between
           </div>
-          <div className="jumbo-text-bold">
-            Military <span>|</span> First Responders <span>|</span> Firefighters
-          </div>
-          <div className="jumbo-text-normal">and those in need of rescue</div>
+          <div className="jumbo-text-bold">First Responders & Firefighters</div>
+          <div className="jumbo-text-normal">and those in need of rescue.</div>
         </div>
         <div className="jumbo-image">
           <div className="image"></div>

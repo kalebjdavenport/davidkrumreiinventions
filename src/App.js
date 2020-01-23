@@ -4,9 +4,9 @@ import "./App.css";
 import { Route, Switch } from "react-router-dom";
 
 import RetRam from "./widgets/RetRam/RetRam";
-// import Shop from "./widgets/shop/Shop";
-// import Auth from "./widgets/Auth/Auth";
-import Navigation from "./widgets/RetRam/Nav/Navigation";
+import LL25 from "./widgets/LL25/LL25";
+
+import Navigation from "./widgets/Nav/Navigation";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <Navigation />
       <Switch>
         <Route exact path="/" component={RetRam} />
-        {/* <Route exact path="/shop" component={Shop} />
-        <Route exact path="/auth" component={Auth} /> */}
+        <Route exact path="/ll25" component={LL25} />
+        {/* <Route exact path="/occludedsight" component={OccludedSight} /> */}
       </Switch>
     </>
   );

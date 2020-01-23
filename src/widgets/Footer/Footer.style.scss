@@ -1,0 +1,85 @@
+.footer {
+  padding: 2rem 4vw;
+  color: rgba($color: #fff, $alpha: 0.75);
+  font-size: 13px;
+  background-image: url("../../assets/texture.png");
+  background-position: top center;
+  background-repeat: repeat;
+  background-size: cover;
+
+  .footernav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    margin: 0 0.5rem 1.75rem 0.5rem;
+
+    &__links {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__links .link {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      align-items: center;
+
+      &:not(:last-child) > a {
+        border-right: 1px solid var(--primary-color);
+      }
+    }
+
+    &__links span {
+      background-color: var(--primary-color);
+      height: 1.5px;
+      border-radius: 2px;
+      width: 0%;
+      transition: all 0.5s;
+    }
+
+    &__links a {
+      padding: 0 0.5rem;
+
+      &:hover + .underline {
+        width: 70%;
+      }
+    }
+  }
+
+  hr {
+    background-color: rgba($color: #fff, $alpha: 0.75);
+    height: 0.5px;
+    border: none;
+  }
+
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.75rem 1.5rem 1rem 1.5rem;
+    flex-wrap: wrap;
+
+    div {
+      padding: 0.5rem 0 0.25rem 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .footer {
+    font-size: 17px;
+
+    .footernav {
+      margin: 2rem 1rem 1.75rem 1rem;
+      &__links a {
+        padding: 0 2rem;
+      }
+    }
+  }
+}

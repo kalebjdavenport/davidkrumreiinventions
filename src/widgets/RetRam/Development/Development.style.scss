@@ -1,52 +1,7 @@
-.nolink {
-  color: inherit;
-  text-decoration: inherit;
-}
-
-.about {
-  background-color: var(--secondary-color);
-  margin: 1.5rem;
-  // padding: 2rem 0;
-  font-size: 1.2rem;
-  line-height: 2.25rem;
-  color: var(--off-white-color);
-
-  .btn-text:link,
-  .btn-text:visited {
-    color: var(--off-white-color);
-    font-size: 1rem;
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: 1px solid var(--main-bg-color);
-    padding: 0.5rem;
-    margin-left: 1.5rem;
-    text-align: center;
-    transition: all 0.2s;
-  }
-
-  .btn-text::after {
-    content: "";
-    display: inline-block;
-    border-radius: 2rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transform: scaleY(2);
-  }
-
-  .btn-text:hover {
-    background-color: var(--main-bg-color);
-    color: #fff;
-    padding: 0.5rem 2rem;
-    margin-left: 0;
-    border-radius: 2rem;
-    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
-    transform: translateY(-0.3rem);
-  }
-
-  .btn-text:active {
-    transform: translateY(-0.1rem);
-    box-shadow: 0 0.1rem 0.75rem rgba(0, 0, 0, 0.15);
-  }
+.gallery {
+  padding: 1.5rem;
+  background-image: url("../../../assets/texture.png");
+  background-position: top center;
+  background-repeat: repeat;
+  background-size: contain;
 }
