@@ -47,9 +47,9 @@ const Contact = () => {
                     type="radio"
                     className="form__radio-input"
                     id="send_updates"
-                    name="send_updates"
+                    name="request_type"
                   />
-                  <label for="small" className="form__radio-label">
+                  <label for="send_updates" className="form__radio-label">
                     <span className="form__radio-button"></span>
                     Send me updates
                   </label>
@@ -60,9 +60,9 @@ const Contact = () => {
                     type="radio"
                     className="form__radio-input"
                     id="purchase_inquiry"
-                    name="purchase_inquiry"
+                    name="request_type"
                   />
-                  <label for="large" className="form__radio-label">
+                  <label for="purchase_inquiry" className="form__radio-label">
                     <span className="form__radio-button"></span>
                     Purchase Inquiry
                   </label>
