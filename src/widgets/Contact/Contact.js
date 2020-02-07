@@ -8,7 +8,14 @@ const Contact = () => {
       <div className="row">
         <div className="book">
           <div className="book__form">
-            <form netlify name="contact" method="POST" className="form">
+            <form
+              netlify
+              name="contact"
+              data-netlify="true"
+              action="POST"
+              method="POST"
+              className="form"
+            >
               <div className="u-margin-bottom-medium">
                 <h2 className="heading-secondary">Request more information.</h2>
               </div>
@@ -19,6 +26,7 @@ const Contact = () => {
                   className="form__input"
                   placeholder="Full name"
                   id="name"
+                  name="name"
                   required
                 />
                 <label for="name" className="form__label">
@@ -32,6 +40,7 @@ const Contact = () => {
                   className="form__input"
                   placeholder="Email address"
                   id="email"
+                  name="email"
                   required
                 />
                 <label for="email" className="form__label">
@@ -44,8 +53,8 @@ const Contact = () => {
                   <input
                     type="radio"
                     className="form__radio-input"
-                    id="small"
-                    name="size"
+                    id="send_updates"
+                    name="send_updates"
                   />
                   <label for="small" className="form__radio-label">
                     <span className="form__radio-button"></span>
@@ -57,13 +66,17 @@ const Contact = () => {
                   <input
                     type="radio"
                     className="form__radio-input"
-                    id="large"
-                    name="size"
+                    id="purchase_inquiry"
+                    name="purchase_inquiry"
                   />
                   <label for="large" className="form__radio-label">
                     <span className="form__radio-button"></span>
                     Purchase Inquiry
                   </label>
+                </div>
+
+                <div className="field">
+                  <div data-netlify-recaptcha />
                 </div>
               </div>
 

@@ -33,7 +33,6 @@
     &__links span {
       background-color: var(--primary-color);
       height: 1.5px;
-      border-radius: 2px;
       width: 0%;
       transition: all 0.5s;
     }
@@ -42,14 +41,14 @@
       padding: 0 0.5rem;
 
       &:hover + .underline {
-        width: 70%;
+        width: 65%;
       }
     }
   }
 
   hr {
-    background-color: rgba($color: #fff, $alpha: 0.75);
-    height: 0.5px;
+    background-color: rgba($color: #fff, $alpha: 0.5);
+    height: 1px;
     border: none;
   }
 
@@ -76,7 +75,7 @@
     font-size: 17px;
 
     .footernav {
-      margin: 2rem 1rem 1.75rem 1rem;
+      margin: 2rem 1rem 1.5rem 1rem;
       &__links a {
         padding: 0 2rem;
       }

@@ -8,19 +8,19 @@ const Footer = () => {
       <div className="footernav">
         <div className="footernav__links">
           <div className="link">
-            <a className="navlink" href="http://theearlynerd">
+            <a className="navlink" href="#">
               Ret Ram&reg;
             </a>
             <span className="underline" />
           </div>
           <div className="link">
-            <a className="navlink" href="http://theearlynerd">
+            <a className="navlink" href="#">
               LL25&reg; Launcher
             </a>
             <span className="underline" />
           </div>
           <div className="link">
-            <a className="navlink" href="http://theearlynerd">
+            <a className="navlink" href="#">
               Elevated Eye Sight
             </a>
             <span className="underline" />
