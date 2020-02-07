@@ -13,34 +13,42 @@ const About = () => {
       <div className="row">
         <div className="col-1-of-2">
           <h3 className="heading-tertiary u-margin-bottom-small">
-            This device will give military the ability to move past barriers
+            Device Description
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            aspernatur porro nostrum veniam impedit fuga amet in eum at tempore
-            fugiat, beatae quae ratione nobis laborum ab odit.
+            The RET RAMⓇ Battering Ram is a single man hand held breaching
+            device weighing approximately 40 pounds it carries a self contained
+            high pressure air cylinder and is capable of delivering quick
+            repeatable multiple blows. The ram can be recharged at any fire
+            station, scuba shop or “on site” by portable field compressors.
           </p>
 
           <h3 className="heading-tertiary u-margin-bottom-small">
-            This device will help firefighters/first responders break down
+            Exclusive Features
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            aspernatur porro nostrum veniam impedit fuga amet in eum at tempore
-            fugiat
+            The RET RAMⓇ Battering Ram is equipped with the Eaton/Aeroquip
+            FD-17Ⓡ high pressure disconnect coupling. This coupling is the only
+            coupling authorized and demanded by the Department of Homeland
+            Security for standardized use by all first responders, Rapid
+            Intervention Teams (RIT Teams), and all fire departments nationwide.
+            This coupling is exclusive to the RET RAMⓇ and makes the ram not
+            only the only pneumatic battering ram on the market, but the only
+            ram comparable with a firefighter’s RIT PAK™ air line.
           </p>
 
           <h3 className="heading-tertiary u-margin-bottom-small">
-            This device will help firefighters/first responders break down.
+            Additional Features
           </h3>
           <p className="paragraph">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-            aspernatur porro nostrum veniam impedit fuga amet in eum at tempore
-            fugiat
+            Further, the RET RAMⓇ carries a “buddy breathing” safety feature,
+            designed in conjunction with the engineers of Eaton/Aeroquip. This
+            makes the RET RAMⓇ not only a superior breaching tool, but a life
+            saving source of breathable air for a firefighter in need.
           </p>
-          {/* <a href="#" className="btn-text">
+          <a href="#more-info" className="btn-text">
             Learn More &rarr;
-          </a> */}
+          </a>
         </div>
         <div className="col-1-of-2">
           <div className="img-comp">

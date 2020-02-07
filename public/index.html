@@ -49,22 +49,20 @@
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
-      <input
-        type="text"
-        className="form__input"
-        placeholder="Full name"
-        id="name"
-        name="name"
-        required
-      />
-      <input
-        type="email"
-        className="form__input"
-        placeholder="Email address"
-        id="email"
-        name="email"
-        required
-      />
+      <input type="radio" id="send_updates" name="request_type" required />
+      <input type="radio" id="purchase_inquiry" name="request_type" required />
+      <div>
+        <label for="invention[]">
+          Updates for
+        </label>
+        <select name="invention[]" id="select-intention">
+          <option value="retram">Ret Ram&reg;</option>
+          <option value="ll25">LL25&reg;</option>
+          <option value="elevated-launcher-sight">
+            Elevated Launcher Sight - ELS&trade;
+          </option>
+        </select>
+      </div>
     </form>
   </body>
 </html>

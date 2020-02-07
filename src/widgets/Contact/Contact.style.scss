@@ -2,6 +2,17 @@
   margin-bottom: 2rem;
 }
 
+.select {
+  display: flex;
+  font-size: 1.2rem;
+  flex-direction: row;
+}
+
+.select-label {
+  display: flex;
+  flex: 1;
+}
+
 .form__input {
   font-size: 1.2rem;
   font-family: inherit;
@@ -15,6 +26,28 @@
   display: block;
   transition: all 0.3s;
 }
+
+.form__select {
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: inherit;
+  border-radius: 2px;
+  background-color: rbga(#fff, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  display: flex;
+  flex: 5;
+  transition: all 0.3s;
+  width: 168px;
+  padding: 5px;
+  line-height: 1;
+  border: 0.5px solid var(--secondary-color);
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 @media only screen and (max-width: 960px) {
   .form__input {
     width: 100%;

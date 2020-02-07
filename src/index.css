@@ -2,6 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+input {
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+:-webkit-autofill {
+  color: #fff !important;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -61,10 +69,11 @@ body {
 .paragraph {
   font-family: expo-sans-pro, sans-serif;
   line-height: normal;
-  font-size: 0.9rem;
+  line-height: 1.65rem;
+  font-size: 1.05rem;
 }
 .paragraph:not(:last-child) {
-  margin-bottom: 3rem;
+  margin-bottom: 2.2rem;
 }
 
 .img-comp {

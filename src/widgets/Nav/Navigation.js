@@ -85,7 +85,8 @@ const Navigation = () => {
                 }
                 class="navigation__link"
               >
-                <span>01</span> Ret-Ram
+                <span style={{ fontSize: "2.8rem" }}>US 9,155,918 B2</span>-
+                Ret-Ram&reg;
               </Link>
             </li>
             <li class="navigation__item">
@@ -97,12 +98,14 @@ const Navigation = () => {
                 }
                 class="navigation__link"
               >
-                <span>02</span> LL25
+                <span style={{ fontSize: "2.7rem" }}>Less Lethal Weapon</span>-
+                LL25&reg;
               </Link>
             </li>
             <li class="navigation__item">
               <a href="/" alt="Invention Three" class="navigation__link">
-                <span>03</span> Elevated Eye Sight
+                <span style={{ fontSize: "2.8rem" }}>US 9,459,075 B1</span>-
+                ELS&trade;
               </a>
             </li>
           </ul>

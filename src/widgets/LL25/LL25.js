@@ -1,12 +1,12 @@
 import React from "react";
-import Home from "../Home/Home";
+import LLHome from "./LLHome/LLHome";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 
 const RetRam = () => {
   return (
     <div>
-      <Home />
+      <LLHome />
       <Contact />
       <Footer />
     </div>

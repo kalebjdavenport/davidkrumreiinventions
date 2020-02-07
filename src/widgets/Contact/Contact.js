@@ -70,6 +70,23 @@ const Contact = () => {
                 </div>
               </div>
 
+              <div className="form__group select u-margin-bottom-medium">
+                <label className="select-label" for="invention[]">
+                  Updates for
+                </label>
+                <select
+                  className="form__select"
+                  name="invention[]"
+                  id="select-intention"
+                >
+                  <option value="retram">Ret Ram&reg;</option>
+                  <option value="ll25">LL25&reg;</option>
+                  <option value="elevated-launcher-sight">
+                    Elevated Launcher Sight - ELS&trade;
+                  </option>
+                </select>
+              </div>
+
               <div className="form__group">
                 <button className="btn btn--green">
                   CONFIRM &nbsp; &rarr;

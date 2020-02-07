@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="link">
             <a className="navlink" href="#">
-              Elevated Eye Sight
+              Elevated Launcher Sight - ELS&trade;
             </a>
             <span className="underline" />
           </div>
