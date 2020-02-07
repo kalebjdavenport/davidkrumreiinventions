@@ -8,13 +8,8 @@ const Contact = () => {
       <div className="row">
         <div className="book">
           <div className="book__form">
-            <form
-              netlify
-              name="contact"
-              method="POST"
-              data-netlify="true"
-              className="form"
-            >
+            <form name="contact" method="post" className="form">
+              <input type="hidden" name="form-name" value="contact" />
               <div className="u-margin-bottom-medium">
                 <h2 className="heading-secondary">Request more information.</h2>
               </div>

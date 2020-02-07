@@ -45,5 +45,26 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input
+        type="text"
+        className="form__input"
+        placeholder="Full name"
+        id="name"
+        name="name"
+        required
+      />
+      <input
+        type="email"
+        className="form__input"
+        placeholder="Email address"
+        id="email"
+        name="email"
+        required
+      />
+    </form>
   </body>
 </html>
