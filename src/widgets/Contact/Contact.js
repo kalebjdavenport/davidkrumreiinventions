@@ -80,7 +80,6 @@ const Contact = () => {
                   id="select-intention"
                 >
                   <option value="retram">Ret Ram&reg;</option>
-                  <option value="ll25">LL25&reg;</option>
                   <option value="elevated-launcher-sight">
                     Elevated Launcher Sight - ELS&trade;
                   </option>

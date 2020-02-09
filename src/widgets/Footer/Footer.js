@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import "./Footer.style.scss";
 
 const Footer = () => {
@@ -8,21 +10,21 @@ const Footer = () => {
       <div className="footernav">
         <div className="footernav__links">
           <div className="link">
-            <a className="navlink" href="#">
+            <Link to="/#home" className="navlink">
               Ret Ram&reg;
-            </a>
+            </Link>
             <span className="underline" />
           </div>
-          <div className="link">
-            <a className="navlink" href="#">
+          {/* <div className="link">
+            <Link to="/ll25#" className="navlink">
               LL25&reg; Launcher
-            </a>
+            </Link>
             <span className="underline" />
-          </div>
+          </div> */}
           <div className="link">
-            <a className="navlink" href="#">
+            <Link to="/#els" className="navlink">
               Elevated Launcher Sight - ELS&trade;
-            </a>
+            </Link>
             <span className="underline" />
           </div>
         </div>

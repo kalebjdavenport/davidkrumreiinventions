@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <div className="nav">
       <Link to="/" className="logo-container">
-        <h1 className="logo">Ret Ram&reg;</h1>
+        <h1 className="logo">Rapid Entry Technologies</h1>
       </Link>
       <a
         href="#nav"
@@ -85,11 +85,20 @@ const Navigation = () => {
                 }
                 class="navigation__link"
               >
-                <span style={{ fontSize: "2.8rem" }}>US 9,155,918 B2</span>-
+                <span
+                  style={{
+                    fontSize: "1.8rem",
+                    marginBottom: "1.5rem",
+                    display: "block",
+                    height: "20px"
+                  }}
+                >
+                  US Patent 9,155,918 B2
+                </span>
                 Ret-Ram&reg;
               </Link>
             </li>
-            <li class="navigation__item">
+            {/* <li class="navigation__item">
               <Link
                 to="/ll25"
                 className="logo-container"
@@ -101,10 +110,19 @@ const Navigation = () => {
                 <span style={{ fontSize: "2.7rem" }}>Less Lethal Weapon</span>-
                 LL25&reg;
               </Link>
-            </li>
+            </li> */}
             <li class="navigation__item">
-              <a href="/" alt="Invention Three" class="navigation__link">
-                <span style={{ fontSize: "2.8rem" }}>US 9,459,075 B1</span>-
+              <a href="/#els" alt="Invention Three" class="navigation__link">
+                <span
+                  style={{
+                    fontSize: "1.8rem",
+                    marginBottom: "1.5rem",
+                    display: "block",
+                    height: "20px"
+                  }}
+                >
+                  US Patent 9,459,075 B1
+                </span>
                 ELS&trade;
               </a>
             </li>

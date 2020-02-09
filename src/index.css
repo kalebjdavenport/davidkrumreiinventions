@@ -32,6 +32,7 @@ body {
 }
 
 .u-margin-bottom-small {
+  margin-top: 1rem;
   margin-bottom: 1.25rem;
 }
 
@@ -69,46 +70,46 @@ body {
 .paragraph {
   font-family: expo-sans-pro, sans-serif;
   line-height: normal;
-  line-height: 1.65rem;
+  line-height: 1.8rem;
   font-size: 1.05rem;
 }
 .paragraph:not(:last-child) {
   margin-bottom: 2.2rem;
 }
 
+.caption {
+  font-family: expo-sans-pro, sans-serif;
+  line-height: normal;
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 1.75rem 0 0 0;
+}
+.caption:last-child {
+  margin-bottom: 3rem;
+}
+
 .img-comp {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .img-comp__photo {
-  width: 55%;
+  width: 65%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  border-radius: 0.5rem;
-  position: absolute;
+  border-radius: 0.25rem;
+
   transition: all 0.1s;
   outline-offset: 0.75rem;
 }
-.img-comp__photo--p1 {
-  left: 0;
-  top: 2rem;
-  z-index: 1;
-}
 .img-comp__photo--p2 {
-  left: 45%;
-  top: 5rem;
-}
-.img-comp__photo--p3 {
-  left: 15%;
-  top: 11rem;
-  z-index: 2;
+  margin-top: 2rem;
 }
 .img-comp__photo:hover {
   outline: 1.2rem solid var(--primary-color);
-  transform: scale(1.1) translateY(-1rem);
+  transform: scale(1.02) translateY(-1rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
-}
-.img-comp:hover .img-comp__photo:not(:hover) {
-  transform: scale(0.95);
 }
 
 .btn,

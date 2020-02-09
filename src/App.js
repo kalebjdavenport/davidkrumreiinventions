@@ -14,7 +14,7 @@ function App() {
       <Navigation />
       <Switch>
         <Route exact path="/" component={RetRam} />
-        <Route exact path="/ll25" component={LL25} />
+        {/* <Route exact path="/ll25" component={LL25} /> */}
         {/* <Route exact path="/occludedsight" component={OccludedSight} /> */}
       </Switch>
     </>
