@@ -100,7 +100,8 @@ const photos = [
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581302063/davidkrumreiinventions/Screen_Shot_2020-02-09_at_21.26.01.png",
     width: 900,
-    hiehgt: 623
+    height: 623,
+    title: "Computer Performance testing at Milwaukee School of Engineering."
   }
 ];
 
@@ -119,7 +120,7 @@ const Development = () => {
   };
 
   return (
-    <section id="development" class="gallery">
+    <section id="development" className="gallery">
       <div className="u-center-text u-margin-bottom-medium">
         <h2 className="heading-secondary">Ret Ram&reg; Development Gallery</h2>
       </div>

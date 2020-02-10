@@ -3,7 +3,7 @@ import "./History.style.scss";
 
 const History = () => {
   return (
-    <section id="history" class="history">
+    <section id="history" className="history">
       <div className="u-center-text u-margin-bottom-small">
         <h2 className="heading-secondary">
           Ret Ram&reg; Additional Information
@@ -53,7 +53,7 @@ const History = () => {
           <h3 className="u-margin-bottom-small heading-center">
             FIRST GENERATION RET RAM® FEATURES
           </h3>
-          <p className="paragraph">
+          <div className="paragraph">
             The RET RAM® Battering Ram is a single man use close quarters
             battering ram powered by high-pressure compressed air.
             <ul>
@@ -78,7 +78,7 @@ const History = () => {
               </li>
               <li>Dead man handle on manifold as a safety feature.</li>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </section>

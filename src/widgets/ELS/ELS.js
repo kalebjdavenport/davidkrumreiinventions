@@ -3,7 +3,7 @@ import "./ELS.style.scss";
 
 const ELS = () => {
   return (
-    <section id="els" class="ELS">
+    <section id="els" className="ELS">
       <div className="u-center-text u-margin-bottom-small">
         <h2 className="heading-secondary">
           Elevated Launcher Sight (ELS&trade;)

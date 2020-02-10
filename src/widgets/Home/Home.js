@@ -7,8 +7,8 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   return (
-    <section id="home" class="home">
-      <div class="main">
+    <section id="home" className="home">
+      <div className="main">
         <div className="jumbo-text">
           <div className="jumbo-text-normal">
             <span style={{ fontWeight: "bold" }}>RET RAM&reg;</span> Blasts

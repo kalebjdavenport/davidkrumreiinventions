@@ -13,14 +13,14 @@ const Navigation = () => {
       </Link>
       <a
         href="#nav"
-        class={`nav__toggle ${mobileMenuOpen && `nav--open`}`}
+        className={`nav__toggle ${mobileMenuOpen && `nav--open`}`}
         role="button"
         aria-expanded="false"
         aria-controls="menu"
         onClick={() => setMobileMenuOpen(prev => !prev)}
       >
         <svg
-          class="menuicon"
+          className="menuicon"
           xmlns="http://www.w3.org/2000/svg"
           width="50"
           height="50"
@@ -28,10 +28,34 @@ const Navigation = () => {
         >
           <title>Toggle Menu</title>
           <g>
-            <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5" />
-            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
-            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
-            <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+            <line
+              className="menuicon__bar"
+              x1="13"
+              y1="16.5"
+              x2="37"
+              y2="16.5"
+            />
+            <line
+              className="menuicon__bar"
+              x1="13"
+              y1="24.5"
+              x2="37"
+              y2="24.5"
+            />
+            <line
+              className="menuicon__bar"
+              x1="13"
+              y1="24.5"
+              x2="37"
+              y2="24.5"
+            />
+            <line
+              className="menuicon__bar"
+              x1="13"
+              y1="32.5"
+              x2="37"
+              y2="32.5"
+            />
           </g>
         </svg>
       </a>
@@ -67,23 +91,26 @@ const Navigation = () => {
             Contact
           </a>
         </div>
-        <input type="checkbox" class="navigation__checkbox" id="nav-toggl" />
-        <label for="nav-toggl" className="menu-button">
+        <input
+          type="checkbox"
+          className="navigation__checkbox"
+          id="nav-toggl"
+        />
+        <label htmlFor="nav-toggl" className="menu-button">
           <span className="menu-inactive">Other Patents</span>
           <span className="menu-active">&times; &nbsp;Close Menu </span>
         </label>
-        <div class="navigation__background">&nbsp;</div>
+        <div className="navigation__background">&nbsp;</div>
 
-        <nav class="navigation__nav">
-          <ul class="navigation__list">
-            <li class="navigation__item">
+        <nav className="navigation__nav">
+          <ul className="navigation__list">
+            <li className="navigation__item">
               <Link
                 to="/"
-                className="logo-container"
                 onClick={() =>
                   (document.getElementById("nav-toggl").checked = false)
                 }
-                class="navigation__link"
+                className="navigation__link"
               >
                 <span
                   style={{
@@ -98,27 +125,14 @@ const Navigation = () => {
                 Ret-Ram&reg;
               </Link>
             </li>
-            {/* <li class="navigation__item">
-              <Link
-                to="/ll25"
-                className="logo-container"
-                onClick={() =>
-                  (document.getElementById("nav-toggl").checked = false)
-                }
-                class="navigation__link"
-              >
-                <span style={{ fontSize: "2.7rem" }}>Less Lethal Weapon</span>-
-                LL25&reg;
-              </Link>
-            </li> */}
-            <li class="navigation__item">
+            <li className="navigation__item">
               <a
                 href="/#els"
                 onClick={() =>
                   (document.getElementById("nav-toggl").checked = false)
                 }
                 alt="Invention Three"
-                class="navigation__link"
+                className="navigation__link"
               >
                 <span
                   style={{

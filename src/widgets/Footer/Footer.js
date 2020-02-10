@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p>
+      <div className="footer-row">
         <div>Rapid Entry Technologies &copy; 2020</div>
         <div>
           developed by{" "}
@@ -43,7 +43,7 @@ const Footer = () => {
             Wow Your Client
           </a>
         </div>
-      </p>
+      </div>
     </div>
   );
 };

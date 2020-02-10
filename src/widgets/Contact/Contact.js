@@ -29,7 +29,7 @@ const Contact = () => {
                   name="name"
                   required
                 />
-                <label for="name" className="form__label">
+                <label htmlFor="name" className="form__label">
                   Full name
                 </label>
               </div>
@@ -43,7 +43,7 @@ const Contact = () => {
                   name="email"
                   required
                 />
-                <label for="email" className="form__label">
+                <label htmlFor="email" className="form__label">
                   Email address
                 </label>
               </div>
@@ -55,13 +55,13 @@ const Contact = () => {
                   id="message"
                   name="message"
                 ></textarea>
-                <label for="message" className="form__label">
+                <label htmlFor="message" className="form__label">
                   Message
                 </label>
               </div>
 
               <div className="form__group select u-margin-bottom-medium">
-                <label className="select-label" for="invention[]">
+                <label className="select-label" htmlFor="invention[]">
                   Updates For:
                 </label>
                 <select
