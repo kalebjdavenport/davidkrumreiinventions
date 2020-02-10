@@ -33,7 +33,7 @@
   font-size: 1.2rem;
   font-family: inherit;
   color: inherit;
-  padding: 1.2rem 1.5rem;
+  padding: 1rem 1.25rem;
   border-radius: 2px;
   background-color: rbga(#fff, 0.5);
   border: none;
@@ -165,13 +165,7 @@
 }
 
 .book {
-  background-image: linear-gradient(
-      105deg,
-      rgba(255, 255, 255, 0.92) 0%,
-      rgba(255, 255, 255, 0.92) 60%,
-      transparent 60%
-    ),
-    url(../../assets/ContactBackground.png);
+  background-color: rgba(240, 239, 243, 0.95);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
@@ -179,16 +173,11 @@
 }
 @media only screen and (max-width: 960px) {
   .book {
-    background-image: linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0.92) 0%,
-        rgba(255, 255, 255, 0.92) 100%
-      ),
-      url(../../assets/ContactBackground.png);
+    background-color: rgba(240, 239, 243, 0.95);
   }
 }
 .book__form {
-  width: 70%;
+  width: 75%;
   padding: 3rem;
 }
 

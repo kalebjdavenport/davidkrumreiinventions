@@ -11,7 +11,7 @@ const Home = () => {
       <div class="main">
         <div className="jumbo-text">
           <div className="jumbo-text-normal">
-            <span style={{ fontWeight: "bold" }}>Ret Ram&reg;</span> Blasts
+            <span style={{ fontWeight: "bold" }}>RET RAM&reg;</span> Blasts
             through barriers — Developed For
           </div>
 

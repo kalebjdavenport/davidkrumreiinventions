@@ -13,11 +13,12 @@
       display: flex;
       width: 30vw;
       padding: 2rem;
+      align-items: flex-start;
     }
 
     .els__photo {
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-      width: 50%;
+      width: 58%;
       margin: 0 5%;
     }
   }

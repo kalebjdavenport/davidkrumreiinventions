@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footernav__links">
           <div className="link">
             <Link to="/#home" className="navlink">
-              Ret Ram&reg;
+              RET RAM&reg;
             </Link>
             <span className="underline" />
           </div>

@@ -60,6 +60,42 @@ const photos = [
     width: 800,
     height: 683,
     title: "RET RAM® computer analytics at Milwaukee School of Engineering"
+  },
+  {
+    src:
+      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299691/davidkrumreiinventions/Inner_Part_of_Ret_RAM.jpg",
+    width: 900,
+    height: 535
+  },
+  {
+    src:
+      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299543/davidkrumreiinventions/Prototype%20of%20RET%20RAM.jpg",
+    width: 900,
+    height: 675
+  },
+  {
+    src:
+      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299543/davidkrumreiinventions/RET%20RAM%20on%20test%20stand.jpg",
+    width: 900,
+    height: 675
+  },
+  {
+    src:
+      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299541/davidkrumreiinventions/Head%20Bearing%20for%20RET%20RAM.jpg",
+    width: 900,
+    height: 675
+  },
+  {
+    src:
+      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581294307/davidkrumreiinventions/FailSafeDeadmanHandle.jpg",
+    width: 900,
+    height: 675
+  },
+  {
+    src:
+      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299542/davidkrumreiinventions/Shop%20with%20many%20parts.jpg",
+    width: 900,
+    height: 675
   }
 ];
 
