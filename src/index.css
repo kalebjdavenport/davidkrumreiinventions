@@ -36,6 +36,11 @@ body {
   margin-bottom: 1.25rem;
 }
 
+.heading {
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+}
+
 .heading-secondary {
   font-size: 3.25rem;
   line-height: 1.25;
@@ -107,7 +112,7 @@ body {
 }
 .img-comp__photo:hover {
   outline: 1.2rem solid var(--primary-color);
-  transform: scale(1.02) translateY(-1rem);
+  transform: scale(1.1);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
 }

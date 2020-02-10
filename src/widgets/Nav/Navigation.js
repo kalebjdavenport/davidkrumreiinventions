@@ -112,7 +112,14 @@ const Navigation = () => {
               </Link>
             </li> */}
             <li class="navigation__item">
-              <a href="/#els" alt="Invention Three" class="navigation__link">
+              <a
+                href="/#els"
+                onClick={() =>
+                  (document.getElementById("nav-toggl").checked = false)
+                }
+                alt="Invention Three"
+                class="navigation__link"
+              >
                 <span
                   style={{
                     fontSize: "1.8rem",

@@ -4,7 +4,6 @@ import "./App.css";
 import { Route, Switch } from "react-router-dom";
 
 import RetRam from "./widgets/RetRam/RetRam";
-import LL25 from "./widgets/LL25/LL25";
 
 import Navigation from "./widgets/Nav/Navigation";
 

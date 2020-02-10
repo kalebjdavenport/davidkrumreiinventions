@@ -47,7 +47,7 @@ const About = () => {
             breaching tool, but a life saving source of breathable air for a
             firefighters in need.
           </p>
-          <a href="#more-info" className="btn-text">
+          <a href="#history" className="btn-text">
             Learn More &rarr;
           </a>
         </div>

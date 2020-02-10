@@ -17,7 +17,7 @@ const photos = [
       "https://res.cloudinary.com/wow-your-client/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1579631525/davidkrumreiinventions/InTheLab.jpg",
     width: 1,
     height: 1,
-    title: "Ret Ram® research development at ??? University."
+    title: "Ret Ram® research development at Milwaukee School of Engineering."
   },
   {
     src:
@@ -37,7 +37,8 @@ const photos = [
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_sharpen/v1579631525/davidkrumreiinventions/Barrellshot2.jpg",
     width: 1,
-    height: 1
+    height: 1,
+    title: "Business end of Ret Ram®"
   },
   {
     src:
@@ -47,21 +48,24 @@ const photos = [
   },
   {
     src:
-      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_800/v1579631524/davidkrumreiinventions/RetRam_before_Launch.png",
+      "https://res.cloudinary.com/wow-your-client/image/upload/v1581294307/davidkrumreiinventions/InnerBearingsConstruction.jpg",
     width: 800,
-    height: 562
+    height: 562,
+    title: "Early Ret Ram® prototype under construction"
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1579631525/davidkrumreiinventions/Ramhead_compared_to_quarter.jpg",
     width: 1,
-    height: 1
+    height: 1,
+    title: ""
   },
   {
     src:
-      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_1000/v1579631524/davidkrumreiinventions/RetRam_Launched.png",
-    width: 1000,
-    height: 683
+      "https://res.cloudinary.com/wow-your-client/image/upload/v1581294306/davidkrumreiinventions/EarlyRetRamPrototypeUnderConstruction.jpg",
+    width: 800,
+    height: 683,
+    title: "Failsafe deadman handle"
   }
 ];
 

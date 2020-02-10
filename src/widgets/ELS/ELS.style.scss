@@ -1,0 +1,24 @@
+.ELS {
+  background-image: url("../../assets/texture.png");
+  padding-top: 0;
+  margin-top: 0;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .ELS__content {
+    color: var(--off-white-color);
+
+    .els_container {
+      display: flex;
+      width: 30vw;
+      padding: 2rem;
+    }
+
+    .els__photo {
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+      width: 50%;
+      margin: 0 5%;
+    }
+  }
+}

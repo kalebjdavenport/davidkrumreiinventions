@@ -6,11 +6,27 @@
   display: flex;
   font-size: 1.2rem;
   flex-direction: row;
+  width: 96%;
+}
+
+@media only screen and (max-width: 960px) {
+  .select {
+    flex-direction: column;
+  }
 }
 
 .select-label {
   display: flex;
+  padding-bottom: 1rem;
   flex: 1;
+}
+
+.contact-title {
+  font-size: 1.9rem;
+}
+
+.form__message {
+  min-height: 9rem;
 }
 
 .form__input {
@@ -38,7 +54,6 @@
   display: flex;
   flex: 5;
   transition: all 0.3s;
-  width: 168px;
   padding: 5px;
   line-height: 1;
   border: 0.5px solid var(--secondary-color);
@@ -152,11 +167,11 @@
 .book {
   background-image: linear-gradient(
       105deg,
-      rgba(255, 255, 255, 0.9) 0%,
-      rgba(255, 255, 255, 0.9) 60%,
+      rgba(255, 255, 255, 0.92) 0%,
+      rgba(255, 255, 255, 0.92) 60%,
       transparent 60%
     ),
-    url(../../assets/Background.JPG);
+    url(../../assets/ContactBackground.png);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
@@ -166,15 +181,15 @@
   .book {
     background-image: linear-gradient(
         to right,
-        rgba(255, 255, 255, 0.9) 0%,
-        rgba(255, 255, 255, 0.9) 100%
+        rgba(255, 255, 255, 0.92) 0%,
+        rgba(255, 255, 255, 0.92) 100%
       ),
-      url(../../assets/Background.JPG);
+      url(../../assets/ContactBackground.png);
   }
 }
 .book__form {
-  width: 65%;
-  padding: 2rem;
+  width: 70%;
+  padding: 3rem;
 }
 
 .row {

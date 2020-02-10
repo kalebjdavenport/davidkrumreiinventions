@@ -5,14 +5,16 @@ import Development from "./Development/Development";
 import History from "./History/History";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import ELS from "../ELS/ELS";
 
 const RetRam = () => {
   return (
     <div>
       <Home />
       <About />
-      <Development />
+      <ELS />
       <History />
+      <Development />
       <Contact />
       <Footer />
     </div>

@@ -11,7 +11,13 @@ const Contact = () => {
             <form name="contact" method="post" className="form">
               <input type="hidden" name="form-name" value="contact" />
               <div className="u-margin-bottom-medium">
-                <h2 className="heading-secondary">Request more information.</h2>
+                <p className="heading-tertiary">
+                  * The RET RAM® battering ram is currently out of production.
+                </p>
+                <h2 className="heading-secondary contact-title">
+                  Request more information on pending development of 2
+                  <sup>nd</sup> generation RET RAM&reg;.
+                </h2>
               </div>
 
               <div className="form__group">
@@ -42,37 +48,21 @@ const Contact = () => {
                 </label>
               </div>
 
-              <div className="form__group u-margin-bottom-medium">
-                <div className="form__radio-group">
-                  <input
-                    type="radio"
-                    className="form__radio-input"
-                    id="send_updates"
-                    name="request_type"
-                  />
-                  <label for="send_updates" className="form__radio-label">
-                    <span className="form__radio-button"></span>
-                    Send me updates
-                  </label>
-                </div>
-
-                <div className="form__radio-group">
-                  <input
-                    type="radio"
-                    className="form__radio-input"
-                    id="purchase_inquiry"
-                    name="request_type"
-                  />
-                  <label for="purchase_inquiry" className="form__radio-label">
-                    <span className="form__radio-button"></span>
-                    Purchase Inquiry
-                  </label>
-                </div>
+              <div className="form__group">
+                <textarea
+                  className="form__input form__message"
+                  placeholder="Message to Rapid Entry Technologies (optional)"
+                  id="message"
+                  name="message"
+                ></textarea>
+                <label for="message" className="form__label">
+                  Message
+                </label>
               </div>
 
               <div className="form__group select u-margin-bottom-medium">
                 <label className="select-label" for="invention[]">
-                  Updates for
+                  Updates For:
                 </label>
                 <select
                   className="form__select"
