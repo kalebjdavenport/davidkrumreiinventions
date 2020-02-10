@@ -65,37 +65,42 @@ const photos = [
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299691/davidkrumreiinventions/Inner_Part_of_Ret_RAM.jpg",
     width: 900,
-    height: 535
+    height: 535,
+    title: "Early prototype development on workbench"
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299543/davidkrumreiinventions/Prototype%20of%20RET%20RAM.jpg",
     width: 900,
-    height: 675
+    height: 675,
+    title: "RET RAM® Generation 1"
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299543/davidkrumreiinventions/RET%20RAM%20on%20test%20stand.jpg",
     width: 900,
-    height: 675
-  },
-  {
-    src:
-      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299541/davidkrumreiinventions/Head%20Bearing%20for%20RET%20RAM.jpg",
-    width: 900,
-    height: 675
+    height: 675,
+    title: "RET RAM® at Milwaukee School of Engineering test stands."
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581294307/davidkrumreiinventions/FailSafeDeadmanHandle.jpg",
     width: 900,
-    height: 675
+    height: 675,
+    title: "RET RAM® generation 1 manifold and deadman handle."
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581299542/davidkrumreiinventions/Shop%20with%20many%20parts.jpg",
     width: 900,
-    height: 675
+    height: 675,
+    title: "Milwaukee School of Engineering Fluid Power institute test stand."
+  },
+  {
+    src:
+      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_900/v1581302063/davidkrumreiinventions/Screen_Shot_2020-02-09_at_21.26.01.png",
+    width: 900,
+    hiehgt: 623
   }
 ];
 
