@@ -7,7 +7,7 @@ const About = () => {
     <section id="about" className="about">
       <div className="u-center-text u-margin-bottom-small">
         <h2 className="heading-secondary">
-          Ret Ram&reg; &ndash; the world's most versitile battering ram.
+          RET RAM&reg; &ndash; the world's most versitile battering ram.
         </h2>
       </div>
       <div className="row">
@@ -44,7 +44,7 @@ const About = () => {
             Further, the RET RAM&reg; carries a “buddy breathing” safety
             feature, designed in conjunction with the engineers of
             Eaton/Aeroquip. This makes the RET RAM&reg; not only a superior
-            breaching tool, but a life saving source of breathable air for a
+            breaching tool, but a life saving source of breathable air for
             firefighters in need.
           </p>
           <a href="#history" className="btn-text">

@@ -10,42 +10,42 @@ const photos = [
       "https://res.cloudinary.com/wow-your-client/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1579631525/davidkrumreiinventions/PressureTankunattached.jpg",
     width: 3,
     height: 6,
-    title: "Unattached Ret Ram® Pressure Tank"
+    title: "Unattached RET RAM® Pressure Tank"
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1579631525/davidkrumreiinventions/InTheLab.jpg",
     width: 1,
     height: 1,
-    title: "Ret Ram® research development at Milwaukee School of Engineering."
+    title: "RET RAM® research development at Milwaukee School of Engineering."
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/v1579631525/davidkrumreiinventions/BarrellshotBest.jpg",
     width: 4,
     height: 3,
-    title: "Barrel View of Ret Ram®"
+    title: "Barrel View of RET RAM®"
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/v1579631524/davidkrumreiinventions/PressureMeterInLab.png",
     width: 5,
     height: 4,
-    title: "Ret Ram® on test stand at Milwaukee School of Engineering"
+    title: "RET RAM® on test stand at Milwaukee School of Engineering"
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_sharpen/v1579631525/davidkrumreiinventions/Barrellshot2.jpg",
     width: 1,
     height: 1,
-    title: "Business end of Ret Ram®"
+    title: "Business end of RET RAM®"
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/v1581294307/davidkrumreiinventions/InnerBearingsConstruction.jpg",
     width: 800,
     height: 562,
-    title: "Early Ret Ram® prototype under construction"
+    title: "Early RET RAM® prototype under construction"
   },
   {
     src:
@@ -59,7 +59,7 @@ const photos = [
       "https://res.cloudinary.com/wow-your-client/image/upload/v1581294306/davidkrumreiinventions/EarlyRetRamPrototypeUnderConstruction.jpg",
     width: 800,
     height: 683,
-    title: "Ret Ram® computer analytics at Milwaukee School of Engineering"
+    title: "RET RAM® computer analytics at Milwaukee School of Engineering"
   }
 ];
 
