@@ -67,7 +67,7 @@ const About = () => {
               className="img-comp__photo img-comp__photo--p2"
             />
             <p className="caption">
-              Researchers at Mulwuakee School of Engineering testing device.
+              Milwaukee School of Engineering's fluid power institute.
             </p>
           </div>
         </div>
