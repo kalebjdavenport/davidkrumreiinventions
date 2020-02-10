@@ -31,7 +31,7 @@ const photos = [
       "https://res.cloudinary.com/wow-your-client/image/upload/v1579631524/davidkrumreiinventions/PressureMeterInLab.png",
     width: 5,
     height: 4,
-    title: "Ret Ram® with pressure meter"
+    title: "Ret Ram® on test stand at Milwaukee School of Engineering"
   },
   {
     src:
@@ -39,12 +39,6 @@ const photos = [
     width: 1,
     height: 1,
     title: "Business end of Ret Ram®"
-  },
-  {
-    src:
-      "https://res.cloudinary.com/wow-your-client/image/upload/c_scale,w_1000/v1579631524/davidkrumreiinventions/Group_Photo.jpg",
-    width: 1000,
-    height: 450
   },
   {
     src:
@@ -58,14 +52,14 @@ const photos = [
       "https://res.cloudinary.com/wow-your-client/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1579631525/davidkrumreiinventions/Ramhead_compared_to_quarter.jpg",
     width: 1,
     height: 1,
-    title: ""
+    title: "High impact tool-steel battering face in reference to quarter."
   },
   {
     src:
       "https://res.cloudinary.com/wow-your-client/image/upload/v1581294306/davidkrumreiinventions/EarlyRetRamPrototypeUnderConstruction.jpg",
     width: 800,
     height: 683,
-    title: "Failsafe deadman handle"
+    title: "Ret Ram® computer analytics at Milwaukee School of Engineering"
   }
 ];
 

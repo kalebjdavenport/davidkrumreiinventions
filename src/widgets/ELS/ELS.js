@@ -14,9 +14,9 @@ const ELS = () => {
           <div className="col-1-of-2">
             <p className="paragraph">
               The Elevated Launcher Sight (ELS) is an adjustable occluded eye
-              sight for use with multiple types of weapons including guns and
-              projectile launchers. The sight being light weight, having a low
-              profile, and mountable on top of a weapon and adjustable for
+              gun sight for use with multiple types of weapons including guns
+              and projectile launchers. The sight being light weight, having a
+              low profile, and mountable on top of a weapon and adjustable for
               different launch angles.
             </p>
           </div>

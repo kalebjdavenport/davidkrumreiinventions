@@ -37,12 +37,12 @@ const History = () => {
               Ladysmith, WI and Vector Engineering of Chaska, MN. Testing of the
               ram was done at the Milwaukee School of Engineering’s Fluid Power
               Institute. Formal documentation of the ram’s performance was
-              published in an academic paper developed by Thomas Labus and David
-              Krumrei. This paper was formally presented at the 2011
-              International Fluid Power Institute Exposition in Las Vegas, USA.
-              The RET RAM® testing results were also presented to the Department
-              of Homeland Security at a meeting at the Milwaukee School of
-              Engineering’s Fluid Power Institute in 2011.
+              published in an academic paper developed by Thomas Labus and
+              inventor David Krumrei. This paper was formally presented at the
+              2011 International Fluid Power Institute Exposition in Las Vegas,
+              USA. The RET RAM® testing results were also presented to the
+              Department of Homeland Security at a meeting at the Milwaukee
+              School of Engineering’s Fluid Power Institute in 2011.
             </p>
           </div>
         </div>
@@ -59,7 +59,8 @@ const History = () => {
             <ul>
               <li>
                 The ram is rechargeable at any firehouse/or in the field using
-                the same air compressor used to fill SCBA tanks.
+                the same portable air compressors used to fill firefighter's
+                SCBA tanks.
               </li>
               <li>
                 CGA fittings compatible with firehouse compressors and matched
@@ -67,8 +68,9 @@ const History = () => {
                 on what the firefighters use in their SCBA tanks.
               </li>
               <li>
-                Eaton FD-17 quick connect (under pressure) fitting for using the
-                ram’s compressed air tank for emergency air for the firefighter.{" "}
+                Eaton Aeroquip's FD-17 quick disconnect (under pressure) fitting
+                for using the ram’s compressed air tank for emergency aid for
+                the firefighter.{" "}
               </li>
               <li>
                 Changeable battering heads for different circumstances including
