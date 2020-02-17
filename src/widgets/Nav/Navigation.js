@@ -9,7 +9,7 @@ const Navigation = () => {
   return (
     <div className="nav">
       <Link to="/" className="logo-container">
-        <h1 className="logo">Rapid Entry Technologies</h1>
+        <h1 className="logo">Rapid Entry Technologies, LLC</h1>
       </Link>
       <a
         href="#nav"
