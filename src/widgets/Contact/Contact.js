@@ -12,7 +12,8 @@ const Contact = () => {
               <input type="hidden" name="form-name" value="contact" />
               <div className="u-margin-bottom-medium">
                 <p className="heading-tertiary">
-                  * The RET RAM® battering ram is currently out of production.
+                  E-mail company for update on production schedule and delivery
+                  date for Generation 2 RET RAM&reg; Battering Ram.
                 </p>
                 <h2 className="heading-secondary contact-title">
                   Request more information on pending development of 2
