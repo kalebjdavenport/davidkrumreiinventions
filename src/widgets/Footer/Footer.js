@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-row">
-        <div>Rapid Entry Technologies &copy; 2020</div>
+        <div>Rapid Entry Technologies COPYRIGHT &copy; 2020, All rights reserved.</div>
         <div>
           developed by{" "}
           <a
