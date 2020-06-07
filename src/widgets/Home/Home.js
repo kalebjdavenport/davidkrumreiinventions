@@ -11,8 +11,11 @@ const Home = () => {
       <div className="main">
         <div className="jumbo-text">
           <div className="jumbo-text-normal">
-            <span style={{ fontWeight: "bold" }}>RET RAM&reg;</span> Blasts
-            through barriers — Developed For
+            <span style={{ fontWeight: "bold" }}>RET RAM&reg;</span> — Blasts
+            through barriers
+          </div>
+          <div style={{ fontSize: 20, paddingTop: "1.5rem", lineHeight: 2 }}>
+            DEVELOPED FOR
           </div>
 
           <div className="jumbo-text-bold">Firefighters & First Responders</div>
@@ -20,7 +23,11 @@ const Home = () => {
           <div className="jumbo-text-bold">Military</div>
         </div>
         <div className="jumbo-image">
-          <div className="image"></div>
+          <img
+            className="image"
+            src="https://res.cloudinary.com/wow-your-client/image/upload/v1591558893/davidkrumreiinventions/ram_image.png"
+            alt="Ret Ram Side View"
+          />
         </div>
       </div>
 

@@ -21,7 +21,7 @@
   .jumbo-text {
     text-align: center;
     color: var(--off-white-color);
-    font-size: 3.3vw;
+    font-size: 2rem;
     line-height: 8vw;
     padding: 1.5rem 1rem;
 
@@ -38,12 +38,9 @@
     justify-content: center;
 
     .image {
-      height: 60vh;
+      max-height: 67vh;
+      max-width: 100%;
       margin-top: -3rem;
-      background-image: url("../../assets/ram_image.png");
-      background-position: center; /* Center the image */
-      background-repeat: no-repeat; /* Do not repeat the image */
-      background-size: contain;
     }
   }
 
@@ -63,7 +60,7 @@
       margin-left: 4%;
       text-align: left;
       color: var(--off-white-color);
-      font-size: 2vw;
+      font-size: 2rem;
       line-height: 6.5vw;
       padding-bottom: 4rem;
 
@@ -85,13 +82,9 @@
       margin-right: 8%;
 
       .image {
-        width: 100%;
-        height: 60vh;
+        max-height: 67vh;
+        max-width: 100%;
         margin-top: -3rem;
-        background-image: url("../../assets/ram_image.png");
-        background-position: center; /* Center the image */
-        background-repeat: no-repeat; /* Do not repeat the image */
-        background-size: contain;
       }
     }
   }

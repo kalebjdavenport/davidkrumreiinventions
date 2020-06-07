@@ -19,7 +19,7 @@ const History = () => {
               ranged in age, the older children were capable of caring for the
               younger. All the children perished in the home behind security
               bars on the ground floor doors and windows. Because of the
-              security bars the children were unable to flee the burning home
+              security bars the children were unable to escape the burning home
               and firefighters were unable to timely gain access to the home to
               rescue the trapped children. Those tragic and preventable deaths
               offered the impetus for the development of the RET RAM® Battering
@@ -32,17 +32,18 @@ const History = () => {
               FIRST GENERATION RET RAM®
             </h3>
             <p className="paragraph">
-              The first commercial RET RAM® was developed a number of years with
-              the help of Adrian Tools, Adrian MI, Ladysmith Machining,
-              Ladysmith, WI and Vector Engineering of Chaska, MN. Testing of the
-              ram was done at the Milwaukee School of Engineering’s Fluid Power
-              Institute. Formal documentation of the ram’s performance was
-              published in an academic paper developed by Thomas Labus and
-              inventor David Krumrei. This paper was formally presented at the
-              2011 International Fluid Power Institute Exposition in Las Vegas,
-              USA. The RET RAM® testing results were also presented to the
-              Department of Homeland Security at a meeting at the Milwaukee
-              School of Engineering’s Fluid Power Institute in 2011.
+              The first commercial RET RAM® was first developed over several
+              years with the help of Adrian Tools, Adrian MI, Ladysmith
+              Machining, Ladysmith, WI and Vector Engineering of Chaska, MN.
+              Testing of the ram was done at the Milwaukee School of
+              Engineering’s Fluid Power Institute. Formal documentation of the
+              ram’s performance was published in an academic paper developed by
+              Thomas Labus and inventor David Krumrei. This paper was formally
+              presented at the 2011 International Fluid Power Institute
+              Exposition in Las Vegas, USA. The RET RAM® testing results were
+              also presented to the Department of Homeland Security at a meeting
+              at the Milwaukee School of Engineering’s Fluid Power Institute in
+              2011.
             </p>
           </div>
         </div>
