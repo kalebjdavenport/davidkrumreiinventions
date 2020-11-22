@@ -67,27 +67,28 @@ const About = () => {
               className="img-comp__photo img-comp__photo--p2"
             />
             <p className="caption">
-              Milwaukee School of Engineering's fluid power institute.
+              Milwaukee School of Engineering's fluid power institute's testing
+              lab.
             </p>
           </div>
         </div>
       </div>
       <div className="row">
         <h3 className="heading-tertiary u-margin-bottom-small">
-          US Patents for RET RAM BATTERING RAM:
+          US Patents for RET RAM&reg; BATTERING RAM:
         </h3>
         <div>
-          <p className="paragraph">Patent No. US 9,155,918 B2</p>
-          <p className="paragraph">Filed: July 3, 2012</p>
-          <p className="paragraph">Issued: October 13, 2015</p>
-          <p className="paragraph">Assigned: Rapid Entry Technologies, LLC.</p>
+          <p>Patent No. US 9,155,918 B2</p>
+          <p>Filed: July 3, 2012</p>
+          <p>Issued: October 13, 2015</p>
+          <p>David Krumrei</p>
         </div>
         <br />
         <div>
-          <p className="paragraph">Patent No. U S 10,821,308 B1</p>
-          <p className="paragraph">Filed: September 20, 2016</p>
-          <p className="paragraph">Issued: November 3, 2020</p>
-          <p className="paragraph">Assigned: Rapid Entry Technologies, LLC.</p>
+          <p>Patent No. US 10,821,308 B1</p>
+          <p>Filed: September 20, 2016</p>
+          <p>Issued: November 3, 2020</p>
+          <p>David Krumrei</p>
         </div>
       </div>
     </section>
