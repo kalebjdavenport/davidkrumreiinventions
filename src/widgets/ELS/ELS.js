@@ -19,6 +19,12 @@ const ELS = () => {
               low profile, and mountable on top of a weapon and adjustable for
               different launch angles.
             </p>
+            <p className="paragraph">Patent No. US 9,459,075 B1</p>
+            <p className="paragraph">Filed: April 30, 2014</p>
+            <p className="paragraph">Issued: October 4, 2016</p>
+            <p className="paragraph">
+              Assigned: Rapid Entry Technologies, LLC.
+            </p>
           </div>
           <div className="col-1-of-2">
             <div className="els_container">

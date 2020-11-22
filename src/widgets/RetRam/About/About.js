@@ -72,6 +72,24 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className="row">
+        <h3 className="heading-tertiary u-margin-bottom-small">
+          US Patents for RET RAM BATTERING RAM:
+        </h3>
+        <div>
+          <p className="paragraph">Patent No. US 9,155,918 B2</p>
+          <p className="paragraph">Filed: July 3, 2012</p>
+          <p className="paragraph">Issued: October 13, 2015</p>
+          <p className="paragraph">Assigned: Rapid Entry Technologies, LLC.</p>
+        </div>
+        <br />
+        <div>
+          <p className="paragraph">Patent No. U S 10,821,308 B1</p>
+          <p className="paragraph">Filed: September 20, 2016</p>
+          <p className="paragraph">Issued: November 3, 2020</p>
+          <p className="paragraph">Assigned: Rapid Entry Technologies, LLC.</p>
+        </div>
+      </div>
     </section>
   );
 };
