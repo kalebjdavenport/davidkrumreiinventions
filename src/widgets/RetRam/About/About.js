@@ -78,17 +78,17 @@ const About = () => {
           US Patents for RET RAM&reg; BATTERING RAM:
         </h3>
         <div>
-          <p>Patent No. US 9,155,918 B2</p>
-          <p>Filed: July 3, 2012</p>
-          <p>Issued: October 13, 2015</p>
-          <p>David Krumrei</p>
+          <p className="small-space">Patent No. US 9,155,918 B2</p>
+          <p className="small-space">Filed: July 3, 2012</p>
+          <p className="small-space">Issued: October 13, 2015</p>
+          <p className="small-space">David Krumrei</p>
         </div>
         <br />
         <div>
-          <p>Patent No. US 10,821,308 B1</p>
-          <p>Filed: September 20, 2016</p>
-          <p>Issued: November 3, 2020</p>
-          <p>David Krumrei</p>
+          <p className="small-space">Patent No. US 10,821,308 B1</p>
+          <p className="small-space">Filed: September 20, 2016</p>
+          <p className="small-space">Issued: November 3, 2020</p>
+          <p className="small-space">David Krumrei</p>
         </div>
       </div>
     </section>
