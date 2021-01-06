@@ -17,7 +17,7 @@ const Navigation = () => {
         role="button"
         aria-expanded="false"
         aria-controls="menu"
-        onClick={() => setMobileMenuOpen(prev => !prev)}
+        onClick={() => setMobileMenuOpen((prev) => !prev)}
       >
         <svg
           className="menuicon"
@@ -105,11 +105,12 @@ const Navigation = () => {
         <nav className="navigation__nav">
           <ul className="navigation__list">
             <li className="navigation__item">
-              <Link
-                to="/"
+              <a
+                href="/#about"
                 onClick={() =>
                   (document.getElementById("nav-toggl").checked = false)
                 }
+                alt="Invention: occluded eye sight"
                 className="navigation__link"
               >
                 <span
@@ -117,13 +118,13 @@ const Navigation = () => {
                     fontSize: "1.8rem",
                     marginBottom: "1.5rem",
                     display: "block",
-                    height: "20px"
+                    height: "20px",
                   }}
                 >
-                  US Patent 9,155,918 B2
+                  US Patent 10,821,308 B1
                 </span>
                 Ret-Ram&reg;
-              </Link>
+              </a>
             </li>
             <li className="navigation__item">
               <a
@@ -131,7 +132,7 @@ const Navigation = () => {
                 onClick={() =>
                   (document.getElementById("nav-toggl").checked = false)
                 }
-                alt="Invention Three"
+                alt="Invention: occluded eye sight"
                 className="navigation__link"
               >
                 <span
@@ -139,7 +140,7 @@ const Navigation = () => {
                     fontSize: "1.8rem",
                     marginBottom: "1.5rem",
                     display: "block",
-                    height: "20px"
+                    height: "20px",
                   }}
                 >
                   US Patent 9,459,075 B1

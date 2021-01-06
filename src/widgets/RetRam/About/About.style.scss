@@ -53,11 +53,11 @@
 
 .row {
   max-width: 80rem;
-  margin: 0 auto;
+  margin: 0.1rem auto;
   flex-direction: row;
 }
 .row:not(:last-child) {
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 960px) {
